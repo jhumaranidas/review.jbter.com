@@ -27,8 +27,9 @@ b, strong {
 a {
     text-decoration: none;
     transition: all 0.3s ease;
-    /*color: #38CCCC;*/
-	color: #007185;
+    /* color: #38CCCC; */
+    color: indianred;
+    text-decoration: underline;
 }
 
 a:hover { color: #30ADAD; }
@@ -410,6 +411,18 @@ ol, ul {
     flex-direction: column;
     overflow: hidden;
 }
-
+h1{
+    margin-bottom: 0px;
+    color: #2874A6;
+    font-size: 25px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+dd {
+    margin-left: 20px;
+}
 li b{font-size:14px;}
 .box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
