@@ -238,7 +238,11 @@ section:hover{
 
 li{
 	list-style-type:none;
-	    margin:4px;}
+	margin:4px;
+	display: inline;
+	
+		
+	}
 
 .main-prod-head{
     height:20px;
@@ -421,8 +425,14 @@ h1{
     margin-bottom: 5px;
 }
 dd {
-    margin-left: 20px;
+	display: inline;
 }
+dd:after {
+  content: "\a";
+  white-space: pre;
+  margin-bottom:15px !importent;
+}
+.mb15{}
 li b{font-size:14px;}
 .box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
